@@ -36,7 +36,7 @@
     ```
 - Делаем исполняемым:
     ```
-    chown +x install_lampac.sh
+    chmod +x install_lampac.sh
     ```  
 - Кладем рядом файлы
 
