@@ -22,25 +22,25 @@
 
 Скачайте скрипт установки и запустите его. Можно сделать это двумя способами:
 
-**1.** Через `curl`:
+**1.** Через curl:
 
-    ```bash
+    
     bash -c "$(curl -fsSL https://raw.githubusercontent.com/rsnorlax/lampac_install/main/install_lampac.sh)"
-    ```
+    
 
 **2.** Если у вас есть дополнительные файлы для Lampac (`init.conf`, `lampainit.my.js`, `lampainit-invc.my.js`, `manifest.json`), положите их **в ту же папку**, где находится скрипт установки, перед запуском. Скрипт автоматически скопирует их в нужные директории.
 
-  - Скачиваем скрипт:
+- Скачиваем скрипт:
     ```
     wget https://raw.githubusercontent.com/rsnorlax/lampac_install/main/install_lampac.sh
     ```
-  - Делаем исполняемым:
+- Делаем исполняемым:
     ```
     chown +x install_lampac.sh
     ```  
-  - Кладем рядом файлы
+- Кладем рядом файлы
 
-  - Запускаем скрипт
+- Запускаем скрипт
      ```
      ./install_lampac.sh
      ```
