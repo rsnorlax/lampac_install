@@ -23,4 +23,4 @@
 Выполните команду, чтобы скачать и запустить скрипт установки напрямую из репозитория:
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/rsnorlax/lampac_install/main/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/rsnorlax/lampac_install/main/install_lampac.sh)"
