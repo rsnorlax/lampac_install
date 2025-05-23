@@ -103,7 +103,7 @@ CRON_JOB="0 3 * * 6 /bin/bash $DEST/update.sh >> $DEST/update.log 2>&1"
 if crontab -l >/dev/null 2>&1; then
     (crontab -l 2>/dev/null | grep -vF "/bin/bash $DEST/update.sh"; echo "$CRON_JOB") | crontab -
 else
-    echo "Внимание: не удалось получить список заданий crontab, пропускается установка задания на обновление."
+    echo "$CRON_JOB" | crontab -
 fi
 
 # Systemd сервис
